@@ -2,7 +2,7 @@
 <h2>Enonce</h2>
 <p>Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients. L'application doit permettre les fonctionnalités suivantes :</p>
 <ul>
-<h3>Afficher les patients</h3>
+<h3>Afficher les patients </h3>
 <h4>Creation de l'entité Patient:</h4>
     <p>
         Cette classe est annotée avec des annotations de Jakarta Persistence API (JPA) pour la liaison avec la base de données.
