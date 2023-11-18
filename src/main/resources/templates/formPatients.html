@@ -21,12 +21,6 @@
             </div>
 
             <div>
-                <label for="prenom">Prénom</label>
-                <input id="prenom" class="form-control" type="text" name="prenom" th:value="${patient.prenom}">
-                <span class="text-danger" th:errors="${patient.nom}"></span>
-            </div>
-
-            <div>
                 <label for="dateNaissance">Date de Naissance </label>
                 <input id="dateNaissance" class="form-control" type="date" name="dateNaissance" th:value="${patient.dateNaissance}">
                 <span class="text-danger" th:errors="${patient.dateNaissance}"></span>
